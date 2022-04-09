@@ -36,6 +36,26 @@ vector<vector<char>> convertToVector(fstream &file){
     return sequenceVector;
 }
 
+int countDifferingBits(vector<vector<char>> seqA, vector<vector<char>> seqB){
+    vector<vector<char>> tmp;
+    int diffs = 0;
+    int size_A = seqA.size();
+    int size_B = seqB.size();
+    // seqA always shorter or equal
+    if(size_A > size_B){
+        tmp = seqA;
+        seqA = seqB;
+        seqB = tmp;
+    }
+    for(int i = 0; i < size_A; i++){
+        for(int j = 0; j < 8; j++){
+            if(seqA[i][j] != seqB[i][j]) diffs++;
+        }
+    }
+    diffs += (size_B - size_A) * 8;
+    return diffs;
+}
+
 int main(int argc, char** argv){
     createLog("APP start");
 
@@ -56,6 +76,8 @@ int main(int argc, char** argv){
 
     vector<vector<char>> byteSeqA = convertToVector(file_A);
     vector<vector<char>> byteSeqB = convertToVector(file_B);
+
+    int diff = countDifferingBits(byteSeqA, byteSeqB);
 
     file_A.close();
     file_B.close();
