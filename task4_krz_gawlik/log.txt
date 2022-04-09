@@ -1,3 +1,16 @@
 Sat Apr 09 19:26:58 2022 : Provided wrong number of arguments (1) - required: 2. Application terminated.
 Sat Apr 09 19:34:03 2022 : Provided wrong number of arguments (1) - required: 2.
 Sat Apr 09 19:34:08 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 19:41:26 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 19:44:41 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 19:44:41 2022 : Closed both files.
+Sat Apr 09 19:45:01 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 19:45:01 2022 : Closed both files.
+Sat Apr 09 19:45:20 2022 : Successfully opened two files: 1) a.txt 2) ba.txt
+Sat Apr 09 19:45:20 2022 : Closed both files.
+Sat Apr 09 19:52:15 2022 : Successfully opened two files: 1) a.txt 2) ba.txt
+Sat Apr 09 19:52:15 2022 : Closed both files.
+Sat Apr 09 19:54:28 2022 : Could not open at least one of provided files.
+Sat Apr 09 19:54:49 2022 : Could not open at least one of provided files.
+Sat Apr 09 19:55:03 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 19:55:03 2022 : Closed both files.
