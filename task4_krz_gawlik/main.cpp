@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <ctime>
+#include <vector>
+#include <bitset>
 using namespace std;
 
 void createLog(string message){
@@ -10,6 +12,28 @@ void createLog(string message){
     string dt = ctime(&t);
     logFile << endl << dt.substr(0, dt.length()-1) << " : " << message;
     logFile.close();
+}
+
+vector<vector<char>> convertToVector(fstream &file){
+    vector<vector<char>> sequenceVector;
+    while(!file.eof()){
+        string byte;
+        vector<char> byteVector;
+        int charCode = file.get();
+        int i = 0;
+
+        if(charCode != -1){
+            byte = bitset<8>(charCode).to_string();
+        }
+
+        for(int bit = 0; bit < 8; bit++){
+            byteVector.push_back(byte[bit]);
+        }
+        sequenceVector.push_back(byteVector);
+        i++;
+    }
+    createLog("Converted file to bits");
+    return sequenceVector;
 }
 
 int main(int argc, char** argv){
@@ -28,6 +52,9 @@ int main(int argc, char** argv){
     } else {
         createLog((string) "Successfully opened two files: 1) " + argv[1] + " 2) " + argv[2]);
     }
+
+    vector<vector<char>> byteSeqA = convertToVector(file_A);
+    vector<vector<char>> byteSeqB = convertToVector(file_B);
 
     file_A.close();
     file_B.close();
