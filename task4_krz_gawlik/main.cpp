@@ -24,13 +24,13 @@ vector<vector<char>> convertToVector(fstream &file){
 
         if(charCode != -1){
             byte = bitset<8>(charCode).to_string();
-        }
 
-        for(int bit = 0; bit < 8; bit++){
-            byteVector.push_back(byte[bit]);
+            for(int bit = 0; bit < 8; bit++){
+                byteVector.push_back(byte[bit]);
+            }
+            sequenceVector.push_back(byteVector);
+            i++;
         }
-        sequenceVector.push_back(byteVector);
-        i++;
     }
     createLog("Converted file to bits");
     return sequenceVector;
@@ -61,6 +61,6 @@ int main(int argc, char** argv){
     file_B.close();
     createLog("Closed both files.");
 
-    createLog("APP start");
+    createLog("APP stop");
     return 0;
 }
