@@ -15,6 +15,7 @@ void createLog(string message){
 }
 
 vector<vector<char>> convertToVector(fstream &file){
+    createLog("Converting file content into bits...");
     vector<vector<char>> sequenceVector;
     while(!file.eof()){
         string byte;
@@ -32,11 +33,12 @@ vector<vector<char>> convertToVector(fstream &file){
             i++;
         }
     }
-    createLog("Converted file to bits");
+    createLog("Conversion finished.");
     return sequenceVector;
 }
 
 int countDifferingBits(vector<vector<char>> seqA, vector<vector<char>> seqB){
+    createLog("Analyzing bits sequences...");
     vector<vector<char>> tmp;
     int diffs = 0;
     int size_A = seqA.size();
@@ -53,6 +55,7 @@ int countDifferingBits(vector<vector<char>> seqA, vector<vector<char>> seqB){
         }
     }
     diffs += (size_B - size_A) * 8;
+    createLog("Analysis finished.");
     return diffs;
 }
 
@@ -80,8 +83,9 @@ int main(int argc, char** argv){
     int diff = countDifferingBits(byteSeqA, byteSeqB);
 
     file_A.close();
+    createLog((string) "File " + argv[1] + " closed.");
     file_B.close();
-    createLog("Closed both files.");
+    createLog((string) "File " + argv[2] + " closed.");
 
     createLog("APP stop");
     return 0;
