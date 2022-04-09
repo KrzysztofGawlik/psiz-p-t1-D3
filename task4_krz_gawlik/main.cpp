@@ -37,6 +37,7 @@ vector<vector<char>> convertToVector(fstream &file){
 }
 
 int main(int argc, char** argv){
+    createLog("APP start");
 
     if(argc != 3) {
         createLog("Provided wrong number of arguments (" + to_string(argc-1) + ") - required: 2.");
@@ -60,5 +61,6 @@ int main(int argc, char** argv){
     file_B.close();
     createLog("Closed both files.");
 
+    createLog("APP start");
     return 0;
 }
