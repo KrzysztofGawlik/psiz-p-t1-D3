@@ -31,5 +31,6 @@ void printAll(List* pRoot) {
 
 int numberOfElements(List* pRoot)
 {
+	if(pRoot == NULL) return 1; // Indicates error
 	return 0;
 }
