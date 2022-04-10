@@ -26,7 +26,6 @@ vector<vector<char>> convertToVector(fstream &file){
 
         if(charCode != -1){
             byte = bitset<8>(charCode).to_string();
-
             for(int bit = 0; bit < 8; bit++){
                 byteVector.push_back(byte[bit]);
             }
@@ -34,7 +33,7 @@ vector<vector<char>> convertToVector(fstream &file){
             i++;
         }
     }
-    createLog("Conversion finished.");
+    createLog("Conversion finished: converted " + to_string(sequenceVector.size()) + " bytes");
     return sequenceVector;
 }
 
