@@ -3,6 +3,7 @@
 #include <ctime>
 #include <vector>
 #include <bitset>
+#include <tuple>
 using namespace std;
 
 void createLog(string message){
@@ -37,10 +38,12 @@ vector<vector<char>> convertToVector(fstream &file){
     return sequenceVector;
 }
 
-int makeComparison(vector<vector<char>> seqA, vector<vector<char>> seqB){
+tuple<int, int, float, long> makeComparison(vector<vector<char>> seqA, vector<vector<char>> seqB){
     createLog("Analyzing bits sequences...");
     vector<vector<char>> tmp;
-    int diffs = 0;
+    int diffs = 0, compared = 0;
+    float ber = 0.;
+    long time = 0;
     int size_A = seqA.size();
     int size_B = seqB.size();
     // seqA always shorter or equal
@@ -48,15 +51,22 @@ int makeComparison(vector<vector<char>> seqA, vector<vector<char>> seqB){
         tmp = seqA;
         seqA = seqB;
         seqB = tmp;
+        size_A = seqA.size();
+        size_B = seqB.size();
     }
     for(int i = 0; i < size_A; i++){
         for(int j = 0; j < 8; j++){
-            if(seqA[i][j] != seqB[i][j]) diffs++;
+            if(seqA[i][j] != seqB[i][j]){
+                diffs++;
+            }
+            compared++;
         }
     }
     diffs += (size_B - size_A) * 8;
+    ber = float(diffs) / float(size_B * 8.) * 100.;
+    tuple<int, int, float, long> results = make_tuple(compared, diffs, ber, time);
     createLog("Analysis finished.");
-    return diffs;
+    return results;
 }
 
 int main(int argc, char** argv){
@@ -80,7 +90,13 @@ int main(int argc, char** argv){
     vector<vector<char>> byteSeqA = convertToVector(file_A);
     vector<vector<char>> byteSeqB = convertToVector(file_B);
 
-    int diff = makeComparison(byteSeqA, byteSeqB);
+    tuple<int, int, float, long> results = makeComparison(byteSeqA, byteSeqB);
+    string resultMsg = "RESULTS Compared bits: " + to_string(get<0>(results)) + 
+                        "; Different bits: " + to_string(get<1>(results)) + 
+                        "; BER: " + to_string(get<2>(results)) + "%" + 
+                        "; Time: " + to_string(get<3>(results));
+    createLog(resultMsg);
+    cout << resultMsg << endl;
 
     file_A.close();
     createLog((string) "File " + argv[1] + " closed.");
