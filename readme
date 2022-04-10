@@ -1,7 +1,112 @@
 # Task 1
 Dodaj na końcu tego pliku przykladowa funkcje zawierającą Twoje imie i nazwisko:
 
-void jan_kowalski(void)
+void adam_pacholski(void)
 {
-	Jan Kowalski
+        Adam Pacholski
+}
+
+void andrzej_baranski(void)
+{
+	Andrzej Baranski
+}
+
+void ilona_topol(void)
+{
+	Ilona Topol
+}
+
+void damian_jaworski(void)
+{
+	Damian Jaworski
+}
+
+void katarzyna_kozlowska(void)
+{
+	Katarzyna Kozlowska
+}
+
+void pawel_stepaniuk(void)
+{
+	Pawel Stepaniuk
+}
+
+void Kamil Miler(void)
+{
+	Kamil Miler
+}
+
+void dariusz_ryszka(void)
+{
+	Dariusz Ryszka
+}
+
+void patryk_romanowski(void)
+{
+	Patryk Romanowski
+}
+
+void Witold Michalak(void)
+{
+	Witold Michalak
+}
+
+void jakub_strzalka(void)
+{
+	Jakub Strzalka 
+}
+
+void mateusz_matusiak(void)
+{
+	Mateusz Matusiak
+}
+
+void jerzy_gos(void)
+{
+	Jerzy Gos
+}
+
+void patryk_sukiennik(void)
+{
+	Patryk Sukiennik
+}
+
+void adam_tkaczyk()
+{
+	Adam Tkaczyk
+}
+
+void damian_naglak(void)
+{
+	Damian Naglak
+}
+
+void maciej_sobieszczyk(void)
+{
+	Maciej Sobieszczyk
+}
+
+void pawel_struzynski(void)
+{
+        Pawel Struzynski
+}
+
+void damian_fuchler(void)
+{
+        Damian Fuchler
+}
+
+void tytus_szatylowicz(void)
+{
+	Tytus Szatylowicz
+}
+
+void krzysztof_pietrzak(void)
+{
+	Krzysztof Pietrzak
+}
+
+void grzegorz_kowalczyk(void)
+{
+        Grzegorz Kowalczyk
 }
