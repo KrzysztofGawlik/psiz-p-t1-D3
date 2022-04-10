@@ -34,7 +34,9 @@ vector<vector<char>> convertToVector(fstream &file){
             i++;
         }
     }
-    createLog("Conversion finished: converted " + to_string(sequenceVector.size()) + " bytes");
+    long bytes = sequenceVector.size();
+    auto mb = (float)bytes/1024/1024;
+    createLog("Conversion finished: converted " + to_string(bytes) + " bytes ["+ to_string(mb) +" MB]");
     return sequenceVector;
 }
 
