@@ -1,16 +1,300 @@
-Sat Apr 09 19:26:58 2022 : Provided wrong number of arguments (1) - required: 2. Application terminated.
-Sat Apr 09 19:34:03 2022 : Provided wrong number of arguments (1) - required: 2.
-Sat Apr 09 19:34:08 2022 : Successfully opened two files: 1) a.txt 2) b.txt
-Sat Apr 09 19:41:26 2022 : Successfully opened two files: 1) a.txt 2) b.txt
-Sat Apr 09 19:44:41 2022 : Successfully opened two files: 1) a.txt 2) b.txt
-Sat Apr 09 19:44:41 2022 : Closed both files.
-Sat Apr 09 19:45:01 2022 : Successfully opened two files: 1) a.txt 2) b.txt
-Sat Apr 09 19:45:01 2022 : Closed both files.
-Sat Apr 09 19:45:20 2022 : Successfully opened two files: 1) a.txt 2) ba.txt
-Sat Apr 09 19:45:20 2022 : Closed both files.
-Sat Apr 09 19:52:15 2022 : Successfully opened two files: 1) a.txt 2) ba.txt
-Sat Apr 09 19:52:15 2022 : Closed both files.
-Sat Apr 09 19:54:28 2022 : Could not open at least one of provided files.
-Sat Apr 09 19:54:49 2022 : Could not open at least one of provided files.
-Sat Apr 09 19:55:03 2022 : Successfully opened two files: 1) a.txt 2) b.txt
-Sat Apr 09 19:55:03 2022 : Closed both files.
+
+Sat Apr 09 22:18:08 2022 : APP start
+Sat Apr 09 22:18:08 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 22:18:08 2022 : Converting file content into bits...
+Sat Apr 09 22:18:08 2022 : Conversion finished.
+Sat Apr 09 22:18:08 2022 : Converting file content into bits...
+Sat Apr 09 22:18:08 2022 : Conversion finished.
+Sat Apr 09 22:18:08 2022 : Analyzing bits sequences...
+Sat Apr 09 22:18:08 2022 : Analysis finished.
+Sat Apr 09 22:18:08 2022 : File a.txt closed.
+Sat Apr 09 22:18:08 2022 : File b.txt closed.
+Sat Apr 09 22:18:08 2022 : APP stop
+Sat Apr 09 23:12:47 2022 : APP start
+Sat Apr 09 23:12:47 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 23:12:47 2022 : Converting file content into bits...
+Sat Apr 09 23:12:47 2022 : Conversion finished.
+Sat Apr 09 23:12:47 2022 : Converting file content into bits...
+Sat Apr 09 23:12:47 2022 : Conversion finished.
+Sat Apr 09 23:12:47 2022 : Analyzing bits sequences...
+Sat Apr 09 23:12:47 2022 : Analysis finished.
+Sat Apr 09 23:12:47 2022 : RESULTS Compared bits: 32; Different bits: 2; BER: 0.000000%; Time: 0
+Sat Apr 09 23:12:47 2022 : File a.txt closed.
+Sat Apr 09 23:12:47 2022 : File b.txt closed.
+Sat Apr 09 23:12:47 2022 : APP stop
+Sat Apr 09 23:13:35 2022 : APP start
+Sat Apr 09 23:13:35 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 23:13:35 2022 : Converting file content into bits...
+Sat Apr 09 23:13:35 2022 : Conversion finished.
+Sat Apr 09 23:13:35 2022 : Converting file content into bits...
+Sat Apr 09 23:13:35 2022 : Conversion finished.
+Sat Apr 09 23:13:35 2022 : Analyzing bits sequences...
+Sat Apr 09 23:13:35 2022 : Analysis finished.
+Sat Apr 09 23:13:35 2022 : RESULTS Compared bits: 32; Different bits: 2; BER: 0.000000%; Time: 0
+Sat Apr 09 23:13:35 2022 : File a.txt closed.
+Sat Apr 09 23:13:35 2022 : File b.txt closed.
+Sat Apr 09 23:13:35 2022 : APP stop
+Sat Apr 09 23:14:43 2022 : APP start
+Sat Apr 09 23:14:43 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 23:14:43 2022 : Converting file content into bits...
+Sat Apr 09 23:14:43 2022 : Conversion finished.
+Sat Apr 09 23:14:43 2022 : Converting file content into bits...
+Sat Apr 09 23:14:43 2022 : Conversion finished.
+Sat Apr 09 23:14:43 2022 : Analyzing bits sequences...
+Sat Apr 09 23:14:43 2022 : Analysis finished.
+Sat Apr 09 23:14:43 2022 : RESULTS Compared bits: 1352; Different bits: -199; BER: 0.000000%; Time: 0
+Sat Apr 09 23:14:43 2022 : File a.txt closed.
+Sat Apr 09 23:14:43 2022 : File b.txt closed.
+Sat Apr 09 23:14:43 2022 : APP stop
+Sat Apr 09 23:15:32 2022 : APP start
+Sat Apr 09 23:15:32 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 23:15:32 2022 : Converting file content into bits...
+Sat Apr 09 23:15:32 2022 : Conversion finished.
+Sat Apr 09 23:15:32 2022 : Converting file content into bits...
+Sat Apr 09 23:15:32 2022 : Conversion finished.
+Sat Apr 09 23:15:32 2022 : Analyzing bits sequences...
+Sat Apr 09 23:15:32 2022 : Analysis finished.
+Sat Apr 09 23:15:32 2022 : RESULTS Compared bits: 1352; Different bits: 2200; BER: 0.000000%; Time: 0
+Sat Apr 09 23:15:32 2022 : File a.txt closed.
+Sat Apr 09 23:15:32 2022 : File b.txt closed.
+Sat Apr 09 23:15:32 2022 : APP stop
+Sat Apr 09 23:16:00 2022 : APP start
+Sat Apr 09 23:16:00 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sat Apr 09 23:16:00 2022 : Converting file content into bits...
+Sat Apr 09 23:16:00 2022 : Conversion finished.
+Sat Apr 09 23:16:00 2022 : Converting file content into bits...
+Sat Apr 09 23:16:00 2022 : Conversion finished.
+Sat Apr 09 23:16:00 2022 : Analyzing bits sequences...
+Sat Apr 09 23:16:00 2022 : Analysis finished.
+Sat Apr 09 23:16:00 2022 : RESULTS Compared bits: 1352; Different bits: 2200; BER: 0.000000%; Time: 0
+Sat Apr 09 23:16:00 2022 : File a.txt closed.
+Sat Apr 09 23:16:00 2022 : File b.txt closed.
+Sat Apr 09 23:16:00 2022 : APP stop
+Sun Apr 10 13:49:27 2022 : APP start
+Sun Apr 10 13:49:27 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 13:49:27 2022 : Converting file content into bits...
+Sun Apr 10 13:49:27 2022 : Conversion finished.
+Sun Apr 10 13:49:27 2022 : Converting file content into bits...
+Sun Apr 10 13:49:27 2022 : Conversion finished.
+Sun Apr 10 13:49:27 2022 : Analyzing bits sequences...
+Sun Apr 10 13:49:27 2022 : Analysis finished.
+Sun Apr 10 13:49:27 2022 : RESULTS Compared bits: 40; Different bits: 1; BER: 0.000000%; Time: 0
+Sun Apr 10 13:49:27 2022 : File a.txt closed.
+Sun Apr 10 13:49:27 2022 : File b.txt closed.
+Sun Apr 10 13:49:27 2022 : APP stop
+Sun Apr 10 13:49:42 2022 : APP start
+Sun Apr 10 13:49:42 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 13:49:42 2022 : Converting file content into bits...
+Sun Apr 10 13:49:42 2022 : Conversion finished.
+Sun Apr 10 13:49:42 2022 : Converting file content into bits...
+Sun Apr 10 13:49:42 2022 : Conversion finished.
+Sun Apr 10 13:49:42 2022 : Analyzing bits sequences...
+Sun Apr 10 13:49:42 2022 : Analysis finished.
+Sun Apr 10 13:49:42 2022 : RESULTS Compared bits: 40; Different bits: 1; BER: 0.000000%; Time: 0
+Sun Apr 10 13:49:42 2022 : File a.txt closed.
+Sun Apr 10 13:49:42 2022 : File b.txt closed.
+Sun Apr 10 13:49:42 2022 : APP stop
+Sun Apr 10 13:52:27 2022 : APP start
+Sun Apr 10 13:52:27 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 13:52:27 2022 : Converting file content into bits...
+Sun Apr 10 13:52:27 2022 : Conversion finished.
+Sun Apr 10 13:52:27 2022 : Converting file content into bits...
+Sun Apr 10 13:52:27 2022 : Conversion finished.
+Sun Apr 10 13:52:27 2022 : Analyzing bits sequences...
+Sun Apr 10 13:52:27 2022 : Analysis finished.
+Sun Apr 10 13:52:27 2022 : RESULTS Compared bits: 40; Different bits: 1; BER: 2.500000%; Time: 0
+Sun Apr 10 13:52:27 2022 : File a.txt closed.
+Sun Apr 10 13:52:27 2022 : File b.txt closed.
+Sun Apr 10 13:52:27 2022 : APP stop
+Sun Apr 10 13:55:36 2022 : APP start
+Sun Apr 10 13:55:36 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 13:55:36 2022 : Converting file content into bits...
+Sun Apr 10 13:55:36 2022 : Conversion finished.
+Sun Apr 10 13:55:36 2022 : Converting file content into bits...
+Sun Apr 10 13:55:36 2022 : Conversion finished.
+Sun Apr 10 13:55:36 2022 : Analyzing bits sequences...
+Sun Apr 10 13:55:36 2022 : Analysis finished.
+Sun Apr 10 13:55:36 2022 : RESULTS Compared bits: 40; Different bits: 1; BER: 2.500000%; Time: 0
+Sun Apr 10 13:55:36 2022 : File a.txt closed.
+Sun Apr 10 13:55:36 2022 : File b.txt closed.
+Sun Apr 10 13:55:36 2022 : APP stop
+Sun Apr 10 13:57:57 2022 : APP start
+Sun Apr 10 13:57:57 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 13:57:57 2022 : Converting file content into bits...
+Sun Apr 10 13:57:57 2022 : Conversion finished.
+Sun Apr 10 13:57:57 2022 : Converting file content into bits...
+Sun Apr 10 13:57:57 2022 : Conversion finished.
+Sun Apr 10 13:57:57 2022 : Analyzing bits sequences...
+Sun Apr 10 13:57:57 2022 : Analysis finished.
+Sun Apr 10 13:57:57 2022 : RESULTS Compared bits: 40; Different bits: 1; BER: 2.500000%; Time: 0
+Sun Apr 10 13:57:57 2022 : File a.txt closed.
+Sun Apr 10 13:57:57 2022 : File b.txt closed.
+Sun Apr 10 13:57:57 2022 : APP stop
+Sun Apr 10 13:58:20 2022 : APP start
+Sun Apr 10 13:58:20 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 13:58:20 2022 : Converting file content into bits...
+Sun Apr 10 13:58:20 2022 : Conversion finished.
+Sun Apr 10 13:58:20 2022 : Converting file content into bits...
+Sun Apr 10 13:58:20 2022 : Conversion finished.
+Sun Apr 10 13:58:20 2022 : Analyzing bits sequences...
+Sun Apr 10 13:58:21 2022 : Analysis finished.
+Sun Apr 10 13:58:21 2022 : RESULTS Compared bits: 24; Different bits: 3; BER: 12.500000%; Time: 0
+Sun Apr 10 13:58:21 2022 : File a.txt closed.
+Sun Apr 10 13:58:21 2022 : File b.txt closed.
+Sun Apr 10 13:58:21 2022 : APP stop
+Sun Apr 10 14:00:02 2022 : APP start
+Sun Apr 10 14:00:02 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:00:02 2022 : Converting file content into bits...
+Sun Apr 10 14:00:02 2022 : Conversion finished.
+Sun Apr 10 14:00:02 2022 : Converting file content into bits...
+Sun Apr 10 14:00:02 2022 : Conversion finished.
+Sun Apr 10 14:00:02 2022 : Analyzing bits sequences...
+Sun Apr 10 14:00:02 2022 : Analysis finished.
+Sun Apr 10 14:00:02 2022 : RESULTS Compared bits: 24; Different bits: 3; BER: 13.000000%; Time: 0
+Sun Apr 10 14:00:02 2022 : File a.txt closed.
+Sun Apr 10 14:00:02 2022 : File b.txt closed.
+Sun Apr 10 14:00:02 2022 : APP stop
+Sun Apr 10 14:02:39 2022 : APP start
+Sun Apr 10 14:02:39 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:02:39 2022 : Converting file content into bits...
+Sun Apr 10 14:02:39 2022 : Conversion finished.
+Sun Apr 10 14:02:39 2022 : Converting file content into bits...
+Sun Apr 10 14:02:39 2022 : Conversion finished.
+Sun Apr 10 14:02:39 2022 : Analyzing bits sequences...
+Sun Apr 10 14:02:39 2022 : Analysis finished.
+Sun Apr 10 14:02:39 2022 : RESULTS Compared bits: 24; Different bits: 3; BER: 12.500000%; Time: 0
+Sun Apr 10 14:02:39 2022 : File a.txt closed.
+Sun Apr 10 14:02:39 2022 : File b.txt closed.
+Sun Apr 10 14:02:39 2022 : APP stop
+Sun Apr 10 14:03:11 2022 : APP start
+Sun Apr 10 14:03:11 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:03:11 2022 : Converting file content into bits...
+Sun Apr 10 14:03:11 2022 : Conversion finished.
+Sun Apr 10 14:03:12 2022 : Converting file content into bits...
+Sun Apr 10 14:03:12 2022 : Conversion finished.
+Sun Apr 10 14:03:12 2022 : Analyzing bits sequences...
+Sun Apr 10 14:03:12 2022 : Analysis finished.
+Sun Apr 10 14:03:12 2022 : RESULTS Compared bits: 72; Different bits: -7; BER: -14.583333%; Time: 0
+Sun Apr 10 14:03:12 2022 : File a.txt closed.
+Sun Apr 10 14:03:12 2022 : File b.txt closed.
+Sun Apr 10 14:03:12 2022 : APP stop
+Sun Apr 10 14:04:56 2022 : APP start
+Sun Apr 10 14:04:56 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:04:56 2022 : Converting file content into bits...
+Sun Apr 10 14:04:56 2022 : Conversion finished.
+Sun Apr 10 14:04:56 2022 : Converting file content into bits...
+Sun Apr 10 14:04:56 2022 : Conversion finished.
+Sun Apr 10 14:04:56 2022 : Analyzing bits sequences...
+Sun Apr 10 14:04:56 2022 : Analysis finished.
+Sun Apr 10 14:04:56 2022 : RESULTS Compared bits: 72; Different bits: -7; BER: -14.583333%; Time: 0
+Sun Apr 10 14:04:56 2022 : File a.txt closed.
+Sun Apr 10 14:04:56 2022 : File b.txt closed.
+Sun Apr 10 14:04:56 2022 : APP stop
+Sun Apr 10 14:07:34 2022 : APP start
+Sun Apr 10 14:07:34 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:07:34 2022 : Converting file content into bits...
+Sun Apr 10 14:07:34 2022 : Conversion finished.
+Sun Apr 10 14:07:34 2022 : Converting file content into bits...
+Sun Apr 10 14:07:34 2022 : Conversion finished.
+Sun Apr 10 14:07:34 2022 : Analyzing bits sequences...
+Sun Apr 10 14:07:34 2022 : Analysis finished.
+Sun Apr 10 14:07:34 2022 : RESULTS Compared bits: 72; Different bits: -7; BER: -14.583333%; Time: 0
+Sun Apr 10 14:07:34 2022 : File a.txt closed.
+Sun Apr 10 14:07:34 2022 : File b.txt closed.
+Sun Apr 10 14:07:34 2022 : APP stop
+Sun Apr 10 14:08:04 2022 : APP start
+Sun Apr 10 14:08:04 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:08:04 2022 : Converting file content into bits...
+Sun Apr 10 14:08:04 2022 : Conversion finished.
+Sun Apr 10 14:08:04 2022 : Converting file content into bits...
+Sun Apr 10 14:08:04 2022 : Conversion finished.
+Sun Apr 10 14:08:04 2022 : Analyzing bits sequences...
+Sun Apr 10 14:08:04 2022 : Analysis finished.
+Sun Apr 10 14:08:04 2022 : RESULTS Compared bits: 72; Different bits: -7; BER: -14.583333%; Time: 0
+Sun Apr 10 14:08:04 2022 : File a.txt closed.
+Sun Apr 10 14:08:04 2022 : File b.txt closed.
+Sun Apr 10 14:08:04 2022 : APP stop
+Sun Apr 10 14:08:35 2022 : APP start
+Sun Apr 10 14:08:35 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:08:35 2022 : Converting file content into bits...
+Sun Apr 10 14:08:35 2022 : Conversion finished.
+Sun Apr 10 14:08:35 2022 : Converting file content into bits...
+Sun Apr 10 14:08:35 2022 : Conversion finished.
+Sun Apr 10 14:08:35 2022 : Analyzing bits sequences...
+Sun Apr 10 14:08:35 2022 : Analysis finished.
+Sun Apr 10 14:08:35 2022 : RESULTS Compared bits: 72; Different bits: -7; BER: -14.583333%; Time: 0
+Sun Apr 10 14:08:35 2022 : File a.txt closed.
+Sun Apr 10 14:08:35 2022 : File b.txt closed.
+Sun Apr 10 14:08:35 2022 : APP stop
+Sun Apr 10 14:08:56 2022 : APP start
+Sun Apr 10 14:08:56 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:08:56 2022 : Converting file content into bits...
+Sun Apr 10 14:08:56 2022 : Conversion finished.
+Sun Apr 10 14:08:56 2022 : Converting file content into bits...
+Sun Apr 10 14:08:56 2022 : Conversion finished.
+Sun Apr 10 14:08:56 2022 : Analyzing bits sequences...
+Sun Apr 10 14:08:56 2022 : Analysis finished.
+Sun Apr 10 14:08:56 2022 : RESULTS Compared bits: 72; Different bits: -7; BER: -14.583333%; Time: 0
+Sun Apr 10 14:08:56 2022 : File a.txt closed.
+Sun Apr 10 14:08:56 2022 : File b.txt closed.
+Sun Apr 10 14:08:56 2022 : APP stop
+Sun Apr 10 14:10:25 2022 : APP start
+Sun Apr 10 14:10:25 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:10:25 2022 : Converting file content into bits...
+Sun Apr 10 14:10:25 2022 : Conversion finished.
+Sun Apr 10 14:10:25 2022 : Converting file content into bits...
+Sun Apr 10 14:10:25 2022 : Conversion finished.
+Sun Apr 10 14:10:25 2022 : Analyzing bits sequences...
+Sun Apr 10 14:10:25 2022 : Analysis finished.
+Sun Apr 10 14:10:25 2022 : RESULTS Compared bits: 48; Different bits: 41; BER: 56.944443%; Time: 0
+Sun Apr 10 14:10:25 2022 : File a.txt closed.
+Sun Apr 10 14:10:25 2022 : File b.txt closed.
+Sun Apr 10 14:10:25 2022 : APP stop
+Sun Apr 10 14:13:35 2022 : APP start
+Sun Apr 10 14:13:35 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:13:35 2022 : Converting file content into bits...
+Sun Apr 10 14:13:35 2022 : Conversion finished.
+Sun Apr 10 14:13:35 2022 : Converting file content into bits...
+Sun Apr 10 14:13:35 2022 : Conversion finished.
+Sun Apr 10 14:13:35 2022 : Analyzing bits sequences...
+Sun Apr 10 14:13:35 2022 : Analysis finished.
+Sun Apr 10 14:13:35 2022 : RESULTS Compared bits: 48; Different bits: 41; BER: 56.944443%; Time: 0
+Sun Apr 10 14:13:35 2022 : File a.txt closed.
+Sun Apr 10 14:13:35 2022 : File b.txt closed.
+Sun Apr 10 14:13:35 2022 : APP stop
+Sun Apr 10 14:17:03 2022 : APP start
+Sun Apr 10 14:17:03 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:17:03 2022 : Converting file content into bits...
+Sun Apr 10 14:17:03 2022 : Conversion finished.
+Sun Apr 10 14:17:03 2022 : Converting file content into bits...
+Sun Apr 10 14:17:03 2022 : Conversion finished.
+Sun Apr 10 14:17:03 2022 : Analyzing bits sequences...
+Sun Apr 10 14:17:03 2022 : Analysis finished.
+Sun Apr 10 14:17:03 2022 : RESULTS Compared bits: 256; Different bits: 24; BER: 8.823529%; Time: 0
+Sun Apr 10 14:17:03 2022 : File a.txt closed.
+Sun Apr 10 14:17:03 2022 : File b.txt closed.
+Sun Apr 10 14:17:03 2022 : APP stop
+Sun Apr 10 14:20:12 2022 : *** APP start
+Sun Apr 10 14:20:12 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:20:12 2022 : Converting file content into bits...
+Sun Apr 10 14:20:12 2022 : Conversion finished.
+Sun Apr 10 14:20:12 2022 : Converting file content into bits...
+Sun Apr 10 14:20:12 2022 : Conversion finished.
+Sun Apr 10 14:20:12 2022 : Analyzing bits sequences...
+Sun Apr 10 14:20:12 2022 : Analysis finished.
+Sun Apr 10 14:20:12 2022 : *** RESULTS Compared bits: 256; Different bits: 24; BER: 8.823529%; Time: 0
+Sun Apr 10 14:20:12 2022 : File a.txt closed.
+Sun Apr 10 14:20:12 2022 : File b.txt closed.
+Sun Apr 10 14:20:12 2022 : *** APP stop
+Sun Apr 10 14:20:38 2022 : *** APP start
+Sun Apr 10 14:20:38 2022 : Successfully opened two files: 1) a.txt 2) b.txt
+Sun Apr 10 14:20:38 2022 : Converting file content into bits...
+Sun Apr 10 14:20:38 2022 : Conversion finished.
+Sun Apr 10 14:20:38 2022 : Converting file content into bits...
+Sun Apr 10 14:20:38 2022 : Conversion finished.
+Sun Apr 10 14:20:38 2022 : Analyzing bits sequences...
+Sun Apr 10 14:20:38 2022 : Analysis finished.
+Sun Apr 10 14:20:38 2022 : *** RESULTS Compared bits: 352; Different bits: 61; BER: 16.576088%; Time: 0
+Sun Apr 10 14:20:38 2022 : File a.txt closed.
+Sun Apr 10 14:20:38 2022 : File b.txt closed.
+Sun Apr 10 14:20:38 2022 : *** APP stop

@@ -70,7 +70,7 @@ tuple<int, int, float, long> makeComparison(vector<vector<char>> seqA, vector<ve
 }
 
 int main(int argc, char** argv){
-    createLog("APP start");
+    createLog("*** APP start");
 
     if(argc != 3) {
         createLog("Provided wrong number of arguments (" + to_string(argc-1) + ") - required: 2.");
@@ -91,7 +91,7 @@ int main(int argc, char** argv){
     vector<vector<char>> byteSeqB = convertToVector(file_B);
 
     tuple<int, int, float, long> results = makeComparison(byteSeqA, byteSeqB);
-    string resultMsg = "RESULTS Compared bits: " + to_string(get<0>(results)) + 
+    string resultMsg = "*** RESULTS Compared bits: " + to_string(get<0>(results)) + 
                         "; Different bits: " + to_string(get<1>(results)) + 
                         "; BER: " + to_string(get<2>(results)) + "%" + 
                         "; Time: " + to_string(get<3>(results));
@@ -103,6 +103,6 @@ int main(int argc, char** argv){
     file_B.close();
     createLog((string) "File " + argv[2] + " closed.");
 
-    createLog("APP stop");
+    createLog("*** APP stop");
     return 0;
 }
