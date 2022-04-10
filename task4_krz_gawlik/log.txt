@@ -1,0 +1,25 @@
+
+Sun Apr 10 18:18:05 2022 : *** APP start
+Sun Apr 10 18:18:05 2022 : Successfully opened two files: (1) src/file_1_A (2) src/file_1_B
+Sun Apr 10 18:18:05 2022 : Analyzing bits sequences... [clock start]
+Sun Apr 10 18:18:05 2022 : Analysis finished. [clock stop]
+Sun Apr 10 18:18:05 2022 : *** RESULTS Compared bits: 0; Different bits: 0; BER: 0.000000%; Time: 0 ms
+Sun Apr 10 18:18:05 2022 : File src/file_1_A closed.
+Sun Apr 10 18:18:05 2022 : File src/file_1_B closed.
+Sun Apr 10 18:18:05 2022 : *** APP stop
+Sun Apr 10 18:18:18 2022 : *** APP start
+Sun Apr 10 18:18:18 2022 : Successfully opened two files: (1) src/file_2_A (2) src/file_2_B
+Sun Apr 10 18:18:18 2022 : Analyzing bits sequences... [clock start]
+Sun Apr 10 18:18:18 2022 : Analysis finished. [clock stop]
+Sun Apr 10 18:18:18 2022 : *** RESULTS Compared bits: 48; Different bits: 10; BER: 1.250000%; Time: 0 ms
+Sun Apr 10 18:18:18 2022 : File src/file_2_A closed.
+Sun Apr 10 18:18:18 2022 : File src/file_2_B closed.
+Sun Apr 10 18:18:18 2022 : *** APP stop
+Sun Apr 10 18:18:36 2022 : *** APP start
+Sun Apr 10 18:18:36 2022 : Successfully opened two files: (1) src/file_3_A (2) src/file_3_B
+Sun Apr 10 18:18:36 2022 : Analyzing bits sequences... [clock start]
+Sun Apr 10 18:18:49 2022 : Analysis finished. [clock stop]
+Sun Apr 10 18:18:49 2022 : *** RESULTS Compared bits: 8; Different bits: 2; BER: 0.000000%; Time: 13300 ms
+Sun Apr 10 18:18:49 2022 : File src/file_3_A closed.
+Sun Apr 10 18:18:49 2022 : File src/file_3_B closed.
+Sun Apr 10 18:18:49 2022 : *** APP stop

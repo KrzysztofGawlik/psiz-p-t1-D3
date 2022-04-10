@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <ctime>
-#include <vector>
 #include <bitset>
 #include <tuple>
 #include <chrono>
