@@ -4,6 +4,7 @@
 #include <vector>
 #include <bitset>
 #include <tuple>
+#include <chrono>
 using namespace std;
 
 void createLog(string message){
@@ -38,11 +39,11 @@ vector<vector<char>> convertToVector(fstream &file){
 }
 
 tuple<int, int, float, long> makeComparison(vector<vector<char>> seqA, vector<vector<char>> seqB){
-    createLog("Analyzing bits sequences...");
+    createLog("Analyzing bits sequences... [clock start]");
+    auto start = chrono::high_resolution_clock::now();
     vector<vector<char>> tmp;
     int diffs = 0, compared = 0;
     float ber = 0.;
-    long time = 0;
     int size_A = seqA.size();
     int size_B = seqB.size();
     // seqA always shorter or equal
@@ -63,8 +64,10 @@ tuple<int, int, float, long> makeComparison(vector<vector<char>> seqA, vector<ve
     }
     diffs += (size_B - size_A) * 8;
     ber = float(diffs) / float(size_B * 8.) * 100.;
-    tuple<int, int, float, long> results = make_tuple(compared, diffs, ber, time);
-    createLog("Analysis finished.");
+    auto stop = chrono::high_resolution_clock::now();
+    createLog("Analysis finished. [clock stop]");
+    auto duration = chrono::duration_cast<chrono::milliseconds>(stop - start);
+    tuple<int, int, float, long> results = make_tuple(compared, diffs, ber, duration.count());
     return results;
 }
 
@@ -93,7 +96,7 @@ int main(int argc, char** argv){
     string resultMsg = "*** RESULTS Compared bits: " + to_string(get<0>(results)) + 
                         "; Different bits: " + to_string(get<1>(results)) + 
                         "; BER: " + to_string(get<2>(results)) + "%" + 
-                        "; Time: " + to_string(get<3>(results));
+                        "; Time: " + to_string(get<3>(results)) + " ms";
     createLog(resultMsg);
     cout << resultMsg << endl;
 
