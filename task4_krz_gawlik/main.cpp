@@ -72,7 +72,7 @@ int main(int argc, char** argv){
         createLog("*** APP stop");
         return 0;
     } else {
-        createLog((string) "Successfully opened two files: 1) " + argv[1] + " 2) " + argv[2]);
+        createLog((string) "Successfully opened two files: (1) " + argv[1] + " (2) " + argv[2]);
     }
 
     tuple<int, int, float, long> results = makeComparison(file_A, file_B);
